@@ -1770,3 +1770,60 @@ body.is-article-visible #footer {
 body.is-preload #footer {
   opacity: 0;
 }
+
+/* ------- CUSTOM STYLES FOR MODALS ------- */
+.contact-modal__description {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 60px;
+}
+@media screen and (max-width: 736px) {
+  .contact-modal__description {
+    flex-flow: column;
+    gap: 24px;
+    align-items: center;
+  }
+}
+
+.contact-modal__description__item {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.contact-modal__description__item__title {
+  font-size: 14px;
+  font-family: 'ChakraPetch Semi Bold';
+}
+
+.contact-modal__description__item__email {
+  font-size: 12px;
+}
+
+.contact-modal__wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-modal__wrapper__logo {
+  width: 5.5rem;
+  height: 5.5rem;
+  background-image: url('../images/L47_logo.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact-modal__description__divider {
+  position: absolute;
+  left: 50%;
+  height: 100%;
+  border-right: 1px solid white;
+}
+
+@media screen and (max-width: 736px) {
+  .contact-modal__description__divider {
+    display: none;
+  }
+}
