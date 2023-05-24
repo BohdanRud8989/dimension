@@ -1799,6 +1799,7 @@ body.is-preload #footer {
 
 .contact-modal__description__item__email {
   font-size: 12px;
+  border-bottom: 1px solid #ffffff80;
 }
 
 .contact-modal__wrapper {
@@ -1826,4 +1827,22 @@ body.is-preload #footer {
   .contact-modal__description__divider {
     display: none;
   }
+}
+
+.modal-info {
+  height: 600px;
+  padding-bottom: 40px !important;
+}
+
+.modal-info__body {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.modal-info__body-lower {
+  max-height: 350px;
+}
+
+.modal-info__body__link {
+  border-bottom: 1px solid #ffffff80;
 }
