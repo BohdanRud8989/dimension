@@ -1402,8 +1402,8 @@ body.is-preload #bg:before {
 }
 
 #header .logo {
-  width: 5.5rem;
-  height: 5.5rem;
+  width: 10.5rem;
+  height: 10.5rem;
   background-image: url('../images/L47_logo.svg');
   background-position: center;
   background-size: cover;
@@ -1497,7 +1497,7 @@ body.is-preload #bg:before {
   display: block;
   position: absolute;
   top: 0;
-  left: calc(54% - 1px);
+  left: calc(53% - 1px);
   width: 1px;
   height: 100%;
   background: #ffffff;
@@ -1554,8 +1554,8 @@ body.is-preload #header .content .inner {
   }
 
   #header .logo {
-    width: 4.75rem;
-    height: 4.75rem;
+    width: 10.5rem;
+    height: 10.5rem;
     line-height: 4.75rem;
   }
 
@@ -1808,8 +1808,8 @@ body.is-preload #footer {
 }
 
 .contact-modal__wrapper__logo {
-  width: 5.5rem;
-  height: 5.5rem;
+  width: 10.5rem;
+  height: 10.5rem;
   background-image: url('../images/L47_logo.svg');
   background-position: center;
   background-size: cover;

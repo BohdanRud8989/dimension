@@ -72,7 +72,8 @@
 		// Methods.
 			$main._show = function(id, initial) {
 
-				var $article = $main_articles.filter('#' + id);
+        const $article = $main_articles.filter('#' + id);
+        const modalBody = document.querySelector('#' + id + ' .modal-info__body')
 
 				// No such article? Bail.
 					if ($article.length == 0)
@@ -173,6 +174,7 @@
 								// Show main, article.
 									$main.show();
 									$article.show();
+                  modalBody.scrollTop =0;
 
 								// Activate article.
 									setTimeout(function() {
