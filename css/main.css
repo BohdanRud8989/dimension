@@ -1402,7 +1402,7 @@ body.is-preload #bg:before {
 }
 
 #header .logo {
-  width: 10.5rem;
+  width: 32rem;
   height: 10.5rem;
   background-image: url('../images/L47_logo.svg');
   background-position: center;
@@ -1803,13 +1803,14 @@ body.is-preload #footer {
 }
 
 .contact-modal__wrapper {
+  margin-top: 32px;
   display: flex;
   flex-flow: row;
   justify-content: center;
 }
 
 .contact-modal__wrapper__logo {
-  width: 10.5rem;
+  width: 32rem;
   height: 10.5rem;
   background-image: url('../images/L47_logo.svg');
   background-position: center;
@@ -1849,6 +1850,7 @@ body.is-preload #footer {
 }
 
 .modal-info__body__partners {
+  margin-top: 16px;
   display: flex;
   flex-flow: row;
   justify-content: flex-start;
