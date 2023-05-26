@@ -1804,6 +1804,7 @@ body.is-preload #footer {
 
 .contact-modal__wrapper {
   display: flex;
+  flex-flow: row;
   justify-content: center;
 }
 
@@ -1845,4 +1846,11 @@ body.is-preload #footer {
 
 .modal-info__body__link {
   border-bottom: 1px solid #ffffff80;
+}
+
+.modal-info__body__partners {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  gap: 16px;
 }
